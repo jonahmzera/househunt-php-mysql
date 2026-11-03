@@ -1,10 +1,12 @@
+<?php
+declare(strict_types=1);
+
+session_start();
+
 if (file_exists(__DIR__ . '/config.local.php')) {
     require __DIR__ . '/config.local.php';
 }
 
-<?php
-declare(strict_types=1);
-session_start();
 date_default_timezone_set('Africa/Nairobi');
 define('APP', 'HouseHunt');
 define('UPLOAD_DIR', __DIR__.'/uploads');
