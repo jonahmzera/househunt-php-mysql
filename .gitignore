@@ -1,0 +1,16 @@
+# Database credentials
+config.local.php
+.env
+
+# Uploaded property images
+uploads/*
+!uploads/.htaccess
+!uploads/.gitkeep
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
